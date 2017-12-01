@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  jupyter:
+    image: jupyter/scipy-notebook
+    volumes:
+      - .:/home/jovyan/work/python-day-natal-2017
+    ports:
+      - "8888:8888"
+      - "8000:8000"
+    working_dir: /home/jovyan/work/python-day-natal-2017
+    command: start-notebook.sh --NotebookApp.token=''
