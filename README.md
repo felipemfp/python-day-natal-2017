@@ -1,2 +1,3 @@
-# python-day-2017
-A Jupyter Notebook about pandas
+# Explorando dados com Pandas
+
+Python Day Natal 2017
