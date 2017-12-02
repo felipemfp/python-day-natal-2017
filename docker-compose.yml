@@ -3,7 +3,7 @@ version: '3'
 services:
 
   jupyter:
-    image: jupyter/scipy-notebook
+    build: .      
     volumes:
       - .:/home/jovyan/work/python-day-natal-2017
     ports:
